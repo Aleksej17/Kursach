@@ -182,7 +182,7 @@ header img{
     border-radius:360px;
     overflow: hidden;
     width: 50px;
-    height: 50px;
+    height: 50px !important;
     margin: 10px 0px 0px 5px;
 }
 header{
