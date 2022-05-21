@@ -283,14 +283,14 @@ grid-column-end: 3;
     font-family:'Philosopher-Regular';
 
 
-    src: url(шрифт/Philosopher-Regular.ttf);
+    src: url(Philosopher-Regular.ttf);
 }
 
 @font-face {
     font-family: 'ZnikomitNo25';
 
 
-    src: url(шрифт/ZnikomitNo25.otf);
+    src: url(ZnikomitNo25.otf);
 }
 .logo{
 
