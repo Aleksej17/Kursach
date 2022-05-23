@@ -1,0 +1,1271 @@
+
+@media (max-width: 2560px) { 
+    a :link{
+        color:skyblue;
+    }
+    a img:hover {
+        transition: 0.2s linear;
+        transform: scale(1.15);
+    }
+    #menu__toggle{
+        display: none;
+        width: 0 !important;
+        height: 0 !important;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    a{
+        color:black;
+        text-decoration: none;
+        transition: all .2s ease;
+    }
+    body{
+        font-family: 'Philosopher-Regular';
+        background-image: linear-gradient(to right,#8ecafe,white,white);
+        word-wrap: break-word;
+    }
+    nav{
+    display: inline-block;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    .nav>ul>li {
+        float: left;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .book_conteiner{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        display: grid;
+        grid-column-gap: 5px;
+        grid-template-columns: 32% 68%;
+        grid-template-rows: 28% 72%;
+    }
+    .div1 {
+        border-left: #c1e2ff 1px solid;
+        margin-left: 25px;
+        font-size: 26px;
+        
+    
+    }
+    .div2 {
+        border-right: #c1e2ff 1px solid;
+        margin-left: 5px;
+        font-size: 26px;
+        
+    }
+    
+    .div {
+        margin-left: 5px;  
+        font-size: 26px;        
+    }
+    
+    .nav ul li a {
+        display: block;
+        width: 100%;
+        height: 26px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .nav li .second {
+        display: none;
+        position: relative;
+        top: 100%;
+        left: 0;
+        float: left;
+        width: 100%;
+    }
+    
+    #logotype:hover{
+        color: black;
+    }
+    
+    a:hover{
+        color: rgb(126, 126, 126);
+    }
+    
+    li a{
+        width: 295%;
+        height: 34px;
+        color: black;
+    }
+
+    img{
+
+        
+        width: 100%;
+        height: 250px;
+    }
+    figure{
+        text-align: center;
+        width:16%;
+        height: 300px;
+        font-size: 25px;
+        float: left;
+    }
+    td .input{
+        width: 90%;
+    }
+   
+    .figure{
+        text-align: center;
+        margin-bottom: 5%;
+        margin-left: 15%;
+        width: 70%;
+        height: 300px;
+        
+    }
+    h3{
+        
+        margin:0px;
+        text-align: center;
+
+    }
+
+
+    .janr{
+        font-size: 23px;
+        text-align: center;
+        width: 90%;
+    }
+    li{
+        text-align: center;
+    }
+
+
+    
+    p{
+
+        font-size: 25px;
+        margin: 0 0 0 30px;
+        text-align: justify;
+    }
+    .h3{
+        color: black;
+
+    }
+    .i{
+        width: 100%;
+        height: 100%;
+    }
+
+h2{
+
+    margin-bottom:30px;
+    text-align: center;
+}
+
+
+
+figcaption{
+    font-size: 16px;
+}
+caption{
+    text-align: center;
+    font-size: 30px;
+}
+input{
+    width: 100%;
+    font-size: 25px;
+    margin-right: 10px;
+    color:#903590
+}
+tr{
+    width: 100%;
+}
+td{
+    width: 50%;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 29px;
+}
+form{
+    caret-color: #903590;
+    width: 60%;
+    margin: auto;
+    margin-top: 120px;
+    color: #903590 ;
+}
+
+header img{
+    border-radius:360px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px 0px 5px;
+}
+header{
+    background-image: linear-gradient(to right,#8ecafe, white,white);
+}
+
+
+.grid {
+
+margin-top: 25px;
+width: 100%;
+text-align: right;
+display: grid;
+grid-column-gap: 5px 5px 5px 0px;
+grid-template-columns: 16% 64% 16% 0.5%;
+grid-template-rows: auto;
+}
+
+.description{
+    margin-top: 50px;
+grid-column-start:1 ;
+grid-column-end: 3;
+}
+.img
+{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+    height: auto;
+}
+.imeging {
+
+    border-radius: 360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 80px !important;
+    float: right;
+    position: sticky;
+    height: 80px;
+    top: 850px;
+}
+.input{
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    width: 49%;
+    background-color: rgb(50, 148, 197) !important; 
+    color: #dfdfdf !important;
+}
+.input:hover{
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
+    background-color: #dfdfdf !important; 
+    color: rgb(50, 148, 197) !important;
+}
+.footer{
+    height: auto;
+    width:100%;
+    display: inline-flex;
+    justify-content:space-around ;
+    background-color: rgb(120, 156, 181);
+
+}
+.subfooter{
+    display: inline-flex;
+    justify-content:start;
+    justify-items: baseline;
+
+}
+.source{
+    padding:15px 5px 5px 5px;
+    text-align:center;
+    margin-right: 50px;
+    font-size: 30px;
+    display: inline-block;
+    font-size: 25px;
+}
+.source img{
+    width: 50px;
+    height: 40px;
+
+}
+.mainMenu{
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    width: 40%;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 140px;
+}
+
+@font-face {
+    font-family:'Philosopher-Regular';
+
+
+    src: url(шрифт/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ZnikomitNo25';
+
+
+    src: url(шрифт/ZnikomitNo25.otf);
+}
+.logo{
+
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    font-family:'ZnikomitNo25' !important;
+}
+.div3{
+    width: 50px;
+}
+
+.picture{
+    margin-left: 30px;
+}
+}
+@media (max-width: 1810px) {
+    .input{
+        font-size: 18px;
+        width: 46%;
+    }
+    figure{
+        width: 16%;
+    }
+}
+
+@media (max-width: 425px){
+    img{
+        width: 50% !important;
+        
+        height: 100px;
+    }
+    figure{
+        display: block !important;
+        width: 100% !important;
+        height: 170px !important;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .conteiner_for_books{
+        margin-left: 110px !important;
+        margin-top: -25px !important;
+    }
+    .figure{
+        display: none !important;
+        width: 100%;
+        height: 20px ;
+        
+    }
+
+    figcaption{
+        display: block;
+        font-size: 10px !important;
+    }
+    .grid{
+        grid-template-columns:100% !important;
+        grid-template-rows: 0% 90% 10%!important;
+    }
+    .div3{
+        display: none;
+    }
+    .div1{
+        display: none;
+    }
+    .source img{
+        display: inline-block;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .source{
+        font-size: 7px !important;
+        margin-right: 0px !important;
+    }
+    #menu__toggle {
+        opacity: 0;
+      }
+      /* стилизуем кнопку */
+      .menu__btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 30px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      /* добавляем "гамбургер" */
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      /* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 135px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  #logotype img{
+      width: 20px !important;
+      height: 20px !important;
+      display: inline-block;
+  }
+  .mainMenu{
+   
+    position: relative;
+    margin-top: 15px !;
+    text-align: center;
+    float: right;
+    width: 100%;
+    font-size: 9px !important;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 5px !important;
+}
+.div2{
+    width: 0px;
+    height: 0px;
+}
+.janr{
+    font-size: 17px !important;
+}
+.logo{
+    font-size: 15px !important;
+}
+p{
+    font-size: 10px !important;
+}
+.h3{
+    font-size: 15px;
+}
+.input{
+    
+    display: inline-block;
+    font-size: 10px !important;
+    width: 45% !important;
+    height: 15px;
+    
+}
+
+.book_conteiner{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 100% !important;
+    grid-template-rows: 20% 20% 60% !important;
+}
+.i{
+    margin-left: 50px;
+    width: 60% !important;
+    height: 150px !important;
+}
+.description{
+    grid-column-start: 0 !important;
+    grid-column-end: 1 !important;
+}
+.info{
+    margin-top: 80px;
+}
+form{
+    font-size: 10px !important;
+    margin: 0 !important;
+}
+tr, td{
+    padding: 5px !important;
+    height: 10px !important;
+}
+form .input{
+    width: 100% !important;
+}
+}
+@media (max-width: 1024px) {
+    #menu__toggle{
+        display: none;
+        width: 0 !important;
+        height: 0 !important;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    .nav>ul>li {
+
+        font-size: 15px;
+    }
+
+    .book_conteiner{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        display: grid;
+        grid-column-gap: 5px;
+        grid-template-columns: 28% 72%;
+        grid-template-rows: 30% 70%;
+    }
+    .div1 {
+        margin-left: 25px;
+        font-size: 15px;
+        
+    }
+    .div2 {
+        margin-left: 5px;
+        font-size: 15px;
+        
+    }
+    
+    .div {
+        margin-left: 5px;
+        
+        font-size: 15px;
+        
+    }
+    
+    .nav ul li a {
+        display: block;
+        width: 100%;
+        height: 26px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .nav li .second {
+        display: none;
+        position: relative;
+        top: 100%;
+        left: 0;
+        float: left;
+        width: 100%;
+    }
+    
+    
+
+    
+    li a{
+        width: 295%;
+        height: 34px;
+    }
+
+    img{
+
+        
+        width: 100%;
+        height: 150px;
+    }
+    figure{
+        text-align: center;
+        width:17%;
+        height: 200px;
+        font-size: 15px;
+        float: left;
+    }
+    td .input{
+        width: 90%;
+    }
+   
+    .figure{
+        text-align: center;
+        margin-bottom: 15%;
+        margin-left: 15%;
+        width: 70%;
+        height: 130px;
+        
+    }
+
+
+    .janr{
+        font-size: 15px;
+        text-align: left;
+        width: 90%;
+    }
+    
+    p{
+
+        font-size: 15px;
+    }
+    .i{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+
+figcaption{
+    font-size:8px;
+}
+caption{
+    text-align: center;
+    font-size: 30px;
+}
+td{
+    width: 50%;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 16px;
+}
+
+
+header img{
+    border-radius:360px;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+    margin: 10px 0px 0px 5px;
+}
+
+
+
+
+.grid {
+
+margin-top: 25px;
+width: 100%;
+text-align: right;
+display: grid;
+grid-column-gap: 5px 5px 5px 0px;
+grid-template-columns: 16% 64% 14.5% 1.5%;
+grid-template-rows: auto;
+}
+
+.description{
+grid-column-start:1 ;
+grid-column-end: 3;
+}
+.img
+{
+    width: 100%;
+    height:100%;
+}
+.text{
+    width: 100%;
+    height: auto;
+}
+.imeging {
+
+    border-radius: 360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 25px !important;
+    float: right;
+    position: sticky;
+    height:25px;
+    top: 600px;
+}
+.input{
+    font-size: 10px;
+    display: inline-block;
+    width: 47%;
+
+}
+.input:hover{
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
+
+}
+.footer{
+    height: auto;
+    width:100%;
+    display: inline-flex;
+    justify-content:space-around ;
+
+
+}
+.subfooter{
+    display: inline-flex;
+    justify-content:start;
+    justify-items: baseline;
+
+}
+.source{
+    padding:15px 5px 5px 5px;
+    text-align:center;
+    margin-right: 50px;
+    display: inline-block;
+    font-size: 10px;
+}
+.source img{
+    width: 30px;
+    height: 20px;
+
+}
+.mainMenu{
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.logo{
+
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+.div3{
+    width: 50px;
+} 
+}
+@media (min-width: 2560px) {
+    #menu__toggle{
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+    
+    .nav>ul>li {
+        float: left;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .book_conteiner{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        display: grid;
+        grid-column-gap: 5px;
+        grid-template-columns: 28% 72%;
+        grid-template-rows: 30% 70%;
+    }
+    .div1 {
+
+        margin-left: 25px;
+        font-size: 26px;
+        
+    }
+    .div2 {
+
+        margin-left: 5px;
+        font-size: 26px;
+        
+    }
+    
+    .div {
+        margin-left: 5px;  
+        font-size: 26px;        
+    }
+    td .input{
+        width: 90%;
+    }
+    .nav ul li a {
+        display: block;
+        width: 100%;
+        height: 26px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .nav li .second {
+        display: none;
+        position: relative;
+        top: 100%;
+        left: 0;
+        float: left;
+        width: 100%;
+    }
+    
+
+
+    
+    li a{
+        width: 295%;
+        height: 34px;
+        color: black;
+    }
+
+    img{
+
+        
+        width: 100%;
+        height: 300px;
+    }
+    figure{
+        text-align: center;
+        width:17%;
+        height: 350px;
+        font-size: 25px;
+        float: left;
+    }
+
+   
+    .figure{
+        text-align: center;
+        margin-bottom: 15%;
+        margin-left: 15%;
+        width: 70%;
+        height: 300px;
+        
+    }
+
+
+    .janr{
+        font-size: 25px;
+        text-align: left;
+        width: 90%;
+    }
+    li{
+        text-align: center;
+    }   
+    p{
+
+        font-size: 25px;
+    }
+
+    .i{
+        width: 100%;
+        height: 100%;
+    }
+     input{
+    width: 90%;
+    background-color:#394A59;
+    font-size: 25px;
+    margin-right: 10px;
+    color:#D9CBA3
+}
+
+
+
+figcaption{
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+caption{
+    text-align: center;
+    font-size: 30px;
+}
+td{
+    width: 50%;
+    text-align: right;
+    vertical-align: baseline;
+    font-size: 16px;
+}
+form{
+    width: 40%;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+header img{
+    border-radius:360px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px 0px 5px;
+}
+
+
+.grid {
+
+margin-top: 25px;
+width: 100%;
+text-align: right;
+display: grid;
+grid-column-gap: 5px 5px 5px 0px;
+grid-template-columns: 16% 64% 16% 0.5%;
+grid-template-rows: auto;
+}
+
+.description{
+grid-column-start:1 ;
+grid-column-end: 3;
+}
+.img
+{
+    width: 100%;
+    height:100%;
+}
+.text{
+    width: 100%;
+    height: auto;
+}
+.imeging {
+
+    border-radius: 360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 80px !important;
+    float: right;
+    position: sticky;
+    height: 80px;
+    top: 880px;
+}
+.input{
+    font-size: 25px;
+    display: inline-block;
+    width: 49%;
+    background-color: grey !important; 
+    color: #dfdfdf !important;
+}
+.input:hover{
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
+    background-color: #dfdfdf !important; 
+    color: grey !important;
+}
+.footer{
+    height: auto;
+    width:100%;
+    display: inline-flex;
+    justify-content:space-around ;
+    background-color: grey;
+
+}
+.subfooter{
+    display: inline-flex;
+    justify-content:start;
+    justify-items: baseline;
+
+}
+.source{
+    padding:15px 5px 5px 5px;
+    text-align:center;
+    margin-right: 50px;
+    font-size: 30px;
+    display: inline-block;
+    font-size: 25px;
+}
+.source img{
+    width: 50px;
+    height: 40px;
+
+}
+.mainMenu{
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    width: 40%;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 140px;
+}
+
+
+.logo{
+
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+}
+.div3{
+    width: 50px;
+}
+}
+
+@media (max-width: 1440px) {
+    #menu__toggle{
+        display: none;
+        width: 0 !important;
+        height: 0 !important;
+    }
+    .nav>ul>li {
+        float: left;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .book_conteiner{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        display: grid;
+        grid-column-gap: 5px;
+        grid-template-columns: 28% 72%;
+        grid-template-rows: 30% 70%;
+    }
+    .div1 {
+        border-left: #c1e2ff 1px solid;
+        margin-left: 25px;
+        font-size: 20px;
+        
+    }
+    .div2 {
+        border-right: #c1e2ff 1px solid;
+        margin-left: 5px;
+        font-size: 20px;
+        
+    }
+    
+    .div {
+        margin-left: 5px;  
+        font-size: 20px;        
+    }
+    
+    .nav ul li a {
+        display: block;
+        width: 100%;
+        height: 26px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .nav li .second {
+        display: none;
+        position: relative;
+        top: 100%;
+        left: 0;
+        float: left;
+        width: 100%;
+    }
+    
+    
+    
+    li a{
+        width: 295%;
+        height: 34px;
+        color: black;
+    }
+
+    img{
+
+        
+        width: 100%;
+        height: 160px;
+    }
+    figure{
+        text-align: center;
+        width:14%;
+        height: 200px;
+        font-size: 25px;
+        float: left;
+    }
+
+   
+    .figure{
+        text-align: center;
+        margin-bottom: 15%;
+        margin-left: 15%;
+        width: 70%;
+        height: 200px;
+        
+    }
+
+
+
+    .janr{
+        font-size: 25px;
+        text-align: left;
+        width: 90%;
+    }
+
+
+    
+    p{
+
+        font-size: 20px;
+    }
+ 
+    .i{
+        width: 100%;
+        height: 100%;
+    }
+     input{
+    width: 90%;
+    background-color:#394A59;
+    font-size: 20px;
+    margin-right: 10px;
+    color:#D9CBA3
+}
+
+
+
+
+figcaption{
+    font-size: 10px;
+}
+caption{
+    text-align: center;
+    font-size: 30px;
+}
+td{
+    width: 50%;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 16px;
+}
+
+header img{
+    border-radius:360px;
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    margin: 8px 0px 0px 5px;
+}
+
+
+
+
+.grid {
+
+margin-top: 25px;
+width: 100%;
+text-align: right;
+display: grid;
+grid-column-gap: 5px 5px 5px 0px;
+grid-template-columns: 16% 64% 16% 0.5%;
+grid-template-rows: auto;
+}
+
+.description{
+grid-column-start:1 ;
+grid-column-end: 3;
+}
+.img
+{
+    width: 100%;
+    height:100%;
+}
+
+
+
+.text{
+    width: 100%;
+    height: auto;
+}
+.imeging {
+
+    border-radius: 360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 70px !important;
+    float: right;
+    position: sticky;
+    height: 70px;
+    top: 900px;
+}
+.input{
+    font-size: 13.3px;
+    display: inline-block;
+    width: 48.5%;
+
+}
+td .input{
+    width: 90%;
+}
+.input:hover{
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
+
+}
+.footer{
+    height: auto;
+    width:100%;
+    display: inline-flex;
+    justify-content:space-around ;
+
+
+}
+.subfooter{
+    display: inline-flex;
+    justify-content:start;
+    justify-items: baseline;
+
+}
+.source{
+    padding:10px 5px 5px 5px;
+    text-align:center;
+    margin-right: 50px;
+    font-size: 15px;
+    display: inline-block;
+}
+.source img{
+    width: 40px;
+    height: 35px;
+
+}
+.mainMenu{
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    font-size: 25px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.logo{
+
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+
+}
+.div3{
+    width: 50px;
+}
+}
