@@ -1,18 +1,20 @@
 $gradient: linear-gradient(to right,#8ecafe,white,white);
 $buttonBgColor: rgb(50, 148, 179) ;
 $buyyonColor: #dfdfdf ;
-a :link {
+
+a {
+    
+    :link {
     color: skyblue;
 }
-
-a img:hover {
-    transition: 0.2s linear;
-    transform: scale(1.15);
-}
-a {
     color: black;
     text-decoration: none;
     transition: all .2s ease;
+    
+    img:hover {
+    transition: 0.2s linear;
+    transform: scale(1.15);
+}
 }
 body {
     font-family: 'Philosopher-Regular';
